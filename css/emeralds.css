@@ -20,7 +20,7 @@ body {
     margin: 0 auto;
     border: 3px solid #43a624;
   border-radius: 10px;  
-    background: rgba(48, 46, 45, 1);
+    background: rgba(0, 0, 0, 1);
     min-height: 250px;
     padding: 20px;
     z-index: 9999;
