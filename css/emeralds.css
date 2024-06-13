@@ -45,3 +45,15 @@ button {
             color: white;
         }
 
+.link-redirect {
+  color: #575757; 
+}
+
+.link-redirect a {
+  color: #575757; 
+  text-decoration: none; 
+}
+
+.link-redirect a:hover {
+  text-decoration: underline; 
+}
