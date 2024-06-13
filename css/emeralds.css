@@ -1,1 +1,18 @@
+#roddyrichhesbox{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+   box-shadow: 0 0 20px #ff00f7, 0 0 30px #ff00f7, 0 0 40px #ff00f7, 0 0 50px #ff00f7;
+    min-width: 350px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #ff5cfa;
+  border-radius: 10px;  
+    background: rgba(48, 46, 45, 1);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9999;
+    text-align: center;
 
+}
