@@ -1,1 +1,66 @@
+<title>Emerald | Home</title>
+<link rel="icon" type="image/png" href="/images/emeraldico.ico">
 
+  <link rel="icon" href="/images/emerald logo.png">
+  <meta property="og:title" content="Emerald.">
+  <meta name="theme-color" content="#11c90e">
+  <meta name="msapplication-TileColor" content="#11c90e">
+  <meta property="og:image" content="/images/emerald logo.png">
+  <meta name="description" content="Plenty Of Games To Play As A Last Resort.">
+  <meta property="og:description" content="Plenty Of Games To Play As A Last Resort.">
+
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+    <link rel="stylesheet" href="/css/emaralds.css">
+</head>
+<body>
+  
+          <div id="roddyrichhesbox">
+        <div id="main">
+        <h1>Emerald.</h1>
+        <h6>MOTD: try BrunysIXL to! -brunys</h6>
+          
+         <button class="blank-button" onclick="openGame()">Open About:Blank Version</button>
+        <script>
+      var urlObj = new window.URL(window.location.href);
+        var url = window.location;
+        
+        if (url) {
+            var win;
+        
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                    window.location.replace("https://ixl.com");
+        
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+        
+                        }
+                    }, 500);
+        
+        
+                }
+            };
+        }
+        </script>
+            
+        </div>
+    </div>
+
+</body>
+</html>
